@@ -31,6 +31,7 @@ set undofile
 
 " Mappings
 let mapleader=","
+nnoremap ; :
 
 " Searching/Moving
 nnoremap / /\v
@@ -44,6 +45,7 @@ set hlsearch
 noremap <leader><space> :noh<cr>
 nnoremap <tab> %
 vnoremap <tab> %
+nnoremap <leader>w <C-w>v<C-w>l "Create a new split window & move to it
 
 " Lines
 set wrap
