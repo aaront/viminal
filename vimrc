@@ -20,6 +20,7 @@ set cursorline
 set ttyfast
 set relativenumber
 set undofile
+set splitright
 
 " Mappings
 let mapleader=","

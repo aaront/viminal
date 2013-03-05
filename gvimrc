@@ -11,3 +11,4 @@ if has("gui_macvim")
     " Sets the percent transparency
     set transparency=3
 endif
+set linespace=3
