@@ -1,6 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =4
-let g:netrw_dirhist_1='C:/Windows/System32'
-let g:netrw_dirhist_2='C:/Windows/System32/AppLocker'
-let g:netrw_dirhist_3='C:/Windows/System32/drivers'
-let g:netrw_dirhist_4='C:/Code/Trunk/Checkmate/web/SDK/api/tests'
