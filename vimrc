@@ -20,7 +20,14 @@ set cursorline
 set ttyfast
 set relativenumber
 set undofile
+
+" Splits
+set splitbelow
 set splitright
+nnoremap <C-J> <C-W><C-J>
+nnoremap <C-K> <C-W><C-K>
+nnoremap <C-L> <C-W><C-L>
+nnoremap <C-H> <C-W><C-H>
 
 " Mappings
 let mapleader=","
@@ -43,3 +50,8 @@ set wrap
 set textwidth=79
 set formatoptions=qrn1
 set colorcolumn=85
+
+" Colors
+set t_Co=256
+let g:solarized_termcolors=256
+colorscheme solarized

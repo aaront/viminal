@@ -5,8 +5,6 @@ else
 endif
 set background=dark
 set go-=T
-colorscheme solarized
-let g:solarized_termcolors=256
 if has("gui_macvim")
     " Sets the percent transparency
     set transparency=3
